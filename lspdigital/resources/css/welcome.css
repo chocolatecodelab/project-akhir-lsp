@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 45px;
+    width: 35px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand h5 {
+    margin-top: 10px;
+    margin-left: 6px;
+    font-size: 20px;
+}
+
+
+.navbar-brand h5:hover {
+    color:  #f6e58d;
+}
+
+.nav-link {
+    color: white !important;
+    margin-bottom: 0px;
+}
+
+.nav-link:hover {
+    color: #f6e58d !important;
+}
+
+
+
+.container-landing {
+    background: linear-gradient(45deg, #7ed6df, #22a6b3);
+    position: relative;
+    height: 100.7vh;
+    margin-top: -75px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.conversation {
+    width: 100%;
+    margin-top: 150px;
+    
+}
+
+.container-landing .titleLanding {
+    margin-top: 150px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container-landing .titleLanding span {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.container-landing .titleLanding2 {
+    color: #f3f3f3;
+    font-size: 32px;
+    font-weight: lighter !important;
+}
+
+.container-landing .titleLanding2 span {
+    color: #C4E538;
+}
+
+.login {
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.lanLogin  {
+    display: inline-block;
+    padding: 9px 5px;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ece0a2; 
+    color: #ffffff;
+}
+
+.lanLogin:hover {
+    color: rgb(255, 255, 255);  
+    background-color: #fce576;
+}
+
+.read {
+    display: inline-block;
+    padding: 7px 5px;
+    cursor: pointer;
+    width: 120px;
+    border: #f6e58d solid 2px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+}
+
+.read:hover {
+    background-color: #f6e58d;
+    color: white;
+}
+
+

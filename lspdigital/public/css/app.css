@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+
+.logo {
+    height: 46px;
+    width: 188px;
+}
+
+.navbar {
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-brand h5 {
+    color: #00CEC9;
+    margin-top: 10px;
+    margin-left: 6px;
+    font-size: 20px;
+}
+
+
+.navbar-brand h5:hover {
+    color:  #81ECEC;
+}
+
+.nav-link {
+    color: #00CEC9 !important;
+    margin-bottom: 0px;
+    width: 200px;
+}
+
+.nav-link:hover {
+    color: #81ECEC !important;
+}
+
+
+.container-landing {
+    background-position: center !important;
+    background-size: 50% !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    height: 120.7vh;
+    margin-top: -75px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-landing .container .landing-bag {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.container-landing .tombolPelatihan {
+    margin-top: 210px;
+    padding-left: 300px !important;
+}
+
+.container-landing .titleLanding {
+    margin-top: 200px;
+    color: #000;
+    font-size: 32px;
+    font-weight: lighter ;
+}
+
+.container-landing .titleLanding span {
+    color: #00CEC9;
+    font-size: 32px;
+    font-weight: lighter;
+}
+
+.container-landing .titleLanding2 {
+    color: #000;
+    font-size: 32px;
+    font-weight: lighter !important;
+}
+
+.container-landing .titleLanding2 span {
+    color: #00CEC9;
+}
+
+.pelatihanTIK {
+    display: inline-block;
+    padding: 9px 5px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00CEC9; 
+    color: #fff;
+}
+
+.pelatihanSKKNI {
+    display: inline-block;
+    padding: 7px 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: underline;
+    color: #00CEC9;  
+}
+
+.pelatihanTIK:hover, .pelatihanSKKNI:hover {
+    color: #81ECEC;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    background-color:#00CEC9 ;
+    color: #fff;
+    width: 100%;
+    z-index: -1;
+}
+
+.footer .title p {
+    color: #fff;
+    font-size: 15px !important;
+    font-weight: lighter;
+}
+
+.footer .title {
+    margin-top: 15px;
+}
+
+.containerVisiMisi {
+    margin-top: 150px;
+}
+
+.containerVisiMisi .visi {
+    margin-left: 150px;
+}
+
+.containerSosmed {
+    display: flex;
+    justify-content: center;
+}
+
+.containerSosmed .twitter {
+    margin: 20px 20px;
+    display: inline-block;
+    padding: 9px 5px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00CEC9; 
+    color: #fff;
+}
+
+.containerSosmed .twitter a, .containerSosmed .facebook a, .containerSosmed .google a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.containerSosmed .facebook {
+    margin: 20px 20px;
+    display: inline-block;
+    padding: 9px 5px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00CEC9; 
+    color: #fff;
+}
+
+.containerSosmed .google {
+    margin: 20px 20px;
+    display: inline-block;
+    padding: 9px 5px;
+    cursor: pointer;
+    width: 200px;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00CEC9; 
+    color: #fff;
+}
+
+.containerStruktur {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.containerStruktur h1 {
+    margin-left: 150px;
+}
+
+.containerRuangLingkup {
+    margin-top: 150px;
+}
+
+.containerRuangLingkup .RuangLingkup {
+    margin-left: 150px;
+}
+
+.contact h2 {
+    margin-bottom: -10px;
+}
+
+.contact hr {
+    border-top: 3px solid black;
+    width: 300px;
+    text-align: center;
+}
+
+.contact h2 span {
+    color: teal;
+}
+
+.formContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formpart3 {
+    margin-right: 60px;
+}
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid linear-gradient(45deg, #3cc8d8, #10daec);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    border-radius: 0;
+}
+
+.contactContainer {
+    border-radius: 4px;
+    padding-top: 21px;
+    padding-bottom: 16px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+    background-color: teal;
+    color: #fff;
+    border: none;
+}
+
+.card-title p {
+    font-weight: 500;
+}
+
+/* .card-icon  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column !important;
+} */
+.visit {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-sosmed {
+    margin-top: -10px;
+}
+
+.card-sosmed a {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin: 8px;
+    border: 1px solid transparent;
+    padding: 10px 12px;
+    border-width: 2px;
+    background-color: #f6e58d;
+}
+
+.card-sosmed a.facebook {
+    padding: 10px 15px;
+}
+
+.card-sosmed a:hover {
+    background-color: white;
+    color:  #f6e58d;
+}
+
+button.btn {
+    background: linear-gradient(45deg, #7ed6df, #22a6b3) ;
+    border-width: 2px;
+    color: white;
+}
+
+button.btn:hover {
+    background: linear-gradient(45deg, #2dc5d6, #01818d) ;
+    color: white;
+}
+
+
+.containerSkema {
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+.containerSkema .table {
+    border: #01818d;
+}
